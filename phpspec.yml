@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: DevMentor
+        psr4_prefix: DevMentor
+        src_path: app
