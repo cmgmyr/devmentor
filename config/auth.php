@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'model' => DevMentor\User::class,
+    'model' => DevMentor\Users\User::class,
 
     /*
     |--------------------------------------------------------------------------
