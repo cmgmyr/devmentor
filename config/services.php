@@ -30,9 +30,15 @@ return [
     ],
 
     'stripe' => [
-        'model'  => DevMentor\User::class,
+        'model'  => DevMentor\Users\User::class,
         'key'    => '',
         'secret' => '',
+    ],
+
+    'github' => [
+        'client_id' => getenv('GITHUB_CLIENT_ID'),
+        'client_secret' => getenv('GITHUB_CLIENT_SECRET'),
+        'redirect' => getenv('GITHUB_REDIRECT'),
     ],
 
 ];
