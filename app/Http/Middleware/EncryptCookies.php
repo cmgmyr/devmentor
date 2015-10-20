@@ -1,4 +1,6 @@
-<?php namespace DevMentor\Http\Middleware;
+<?php
+
+namespace DevMentor\Http\Middleware;
 
 use Illuminate\Cookie\Middleware\EncryptCookies as BaseEncrypter;
 

@@ -1,4 +1,6 @@
-<?php namespace DevMentor\Console;
+<?php
+
+namespace DevMentor\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;

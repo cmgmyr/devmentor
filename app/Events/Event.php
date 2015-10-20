@@ -1,4 +1,6 @@
-<?php namespace DevMentor\Events;
+<?php
+
+namespace DevMentor\Events;
 
 abstract class Event
 {

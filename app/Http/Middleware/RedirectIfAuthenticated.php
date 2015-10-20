@@ -1,4 +1,6 @@
-<?php namespace DevMentor\Http\Middleware;
+<?php
+
+namespace DevMentor\Http\Middleware;
 
 use Closure;
 use Illuminate\Contracts\Auth\Guard;

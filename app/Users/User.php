@@ -1,8 +1,10 @@
-<?php namespace DevMentor\Users;
+<?php
+
+namespace DevMentor\Users;
 
 use Illuminate\Auth\Authenticatable;
-use Illuminate\Database\Eloquent\Model;
 use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
+use Illuminate\Database\Eloquent\Model;
 
 class User extends Model implements AuthenticatableContract
 {
@@ -30,7 +32,7 @@ class User extends Model implements AuthenticatableContract
     protected $hidden = ['token', 'remember_token'];
 
     /**
-     * Returns the username for the user
+     * Returns the username for the user.
      *
      * @return string
      */
@@ -40,7 +42,7 @@ class User extends Model implements AuthenticatableContract
     }
 
     /**
-     * Returns the profile url for the user
+     * Returns the profile url for the user.
      *
      * @return string
      */
@@ -50,7 +52,7 @@ class User extends Model implements AuthenticatableContract
     }
 
     /**
-     * Returns the avatar url for the user
+     * Returns the avatar url for the user.
      *
      * @return string
      */

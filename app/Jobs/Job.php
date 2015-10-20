@@ -1,4 +1,6 @@
-<?php namespace DevMentor\Jobs;
+<?php
+
+namespace DevMentor\Jobs;
 
 use Illuminate\Bus\Queueable;
 

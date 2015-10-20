@@ -1,4 +1,6 @@
-<?php namespace DevMentor\Http;
+<?php
+
+namespace DevMentor\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 

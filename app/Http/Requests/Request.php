@@ -1,4 +1,6 @@
-<?php namespace DevMentor\Http\Requests;
+<?php
+
+namespace DevMentor\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
